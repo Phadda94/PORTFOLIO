@@ -393,6 +393,7 @@ p {
 }
 
 .projects-grid {
+    display: inline-flex;
     font-size: 0.6em;
     font-weight: bold;
 }
@@ -487,7 +488,7 @@ p {
         gap: 10px;
         background-color: #072F33; 
         position: relative;
-        transform: translateX(-780%);
+        transform: translateX(-800%);
         margin-right: 1em;
         top: 60px;
         padding: 10px;
@@ -588,10 +589,8 @@ p {
     .certificate-section h2 {
         font-weight: bold;
         font-size: 2cqmax;
-    }
-
-    .certificate-section img {
-        max-width: 300px;
+        max-width: fit-content;
+        justify-self: center;
     }
 
     .certificate-section img:hover {
@@ -600,7 +599,7 @@ p {
 
 
     #projects-content {
-        margin-top: 35cqmin;
+        margin-top: 15cqmin;
     }
 
     #contact {
